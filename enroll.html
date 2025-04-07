@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Enroll - Golden Hour Education</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Golden Hour Logo">
+    <nav>
+      <a href="index.html">HOME</a>
+      <a href="about.html">ABOUT</a>
+      <a href="enroll.html">ENROLL</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>ENROLL</h1>
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <label>Choose Your Course</label>
+      <select name="course">
+        <option>BLS - $39</option>
+        <option>ACLS - $149</option>
+        <option>PALS - $149</option>
+        <option>ACLS & BLS - $159</option>
+        <option>PALS & BLS - $159</option>
+        <option>ACLS / PALS / BLS Package - $299</option>
+      </select>
+
+      <label>Select Location</label>
+      <select name="location">
+        <option>Azusa, CA Office</option>
+        <option>Mobile Training</option>
+      </select>
+
+      <label>Preferred Date</label>
+      <input type="date" name="date">
+
+      <label>Name</label>
+      <input type="text" name="name" required>
+
+      <label>Email</label>
+      <input type="email" name="email" required>
+
+      <label>Phone</label>
+      <input type="text" name="phone" required>
+
+      <button type="submit">Pay & Enroll</button>
+    </form>
+  </main>
+
+  <footer>
+    Veteran Owned and Operated
+  </footer>
+</body>
+</html>
